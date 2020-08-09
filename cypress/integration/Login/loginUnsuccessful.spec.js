@@ -4,7 +4,7 @@ describe('Login with no credentials', function() {
 const loginunsuccessful = new LoginunsuccessfulPage()
 
 
-    it('login', function() {
+    it('loginunsuccessful', function() {
           cy.visit('https://evernote.com/')
           loginunsuccessful.clickNavigation().click()
           loginunsuccessful.clickLoginTab().click()
